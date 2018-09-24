@@ -1,5 +1,7 @@
 package main
 
+import "os"
+
 func main() {
-	dupWithFileName()
+	lissajous(os.Stdout)
 }
